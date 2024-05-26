@@ -1,5 +1,5 @@
+import { DotSvg } from "@/src/assets/images";
 import Image from "next/image";
-import { DotSvg, RightArrowSvg } from "@/src/assets/images";
 
 const FlightHistoryCard = () => {
   return (
@@ -12,16 +12,9 @@ const FlightHistoryCard = () => {
         </div>
         <div>
           <p className="text-lg font-semibold text-gray-950 flex items-center">
-            DAC
-            <Image
-              src={RightArrowSvg}
-              width={15}
-              alt="RightArrowSvg"
-              className="mx-1"
-            />
-            JFK
+            DAC → JFK
           </p>
-          <div className="text-gray-600 text-sm font-normal flex items-center">
+          <div className="text-gray-600 text-13 font-normal flex items-center">
             <p>Round Trip</p>
             <Image src={DotSvg} alt="RightArrowSvg" className="mx-2" />
             <p>25 Mar - 4 Apr 2023</p>
@@ -29,7 +22,9 @@ const FlightHistoryCard = () => {
             <p>1 Stop</p>
           </div>
         </div>
-        <p className="ms-auto">33h 20m</p>
+        <p className="ms-auto text-xs font-475 rounded-32 bg-blue-200 text-blue-700 px-2 py-1">
+          33h 20m
+        </p>
       </div>
     </div>
   );

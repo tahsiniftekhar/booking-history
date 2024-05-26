@@ -10,6 +10,31 @@ body {
   background-color: var(--background);
 }
 
+.vl {
+  border-left: 2px solid #d8e1eb;
+}
+
+.h-53 {
+  height: 3.313rem;
+
+}
+
+.h-19 {
+  height: 1.188rem;
+}
+
+.text-13 {
+  font-size: 0.813rem;
+}
+
+.font-475 {
+  font-weight: 475;
+}
+
+.rounded-32 {
+  border-radius: 2rem;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

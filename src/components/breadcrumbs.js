@@ -8,31 +8,31 @@ const Breadcrumbs = () => {
         <li className="inline-flex items-center">
           <a
             href="#"
-            className="inline-flex items-center text-sm font-medium text-gray-700"
+            className="inline-flex items-center text-13 font-normal text-gray-700"
           >
             Home
           </a>
         </li>
         <li>
           <div className="flex items-center">
-            <Image src={ArrowSvg} alt="ArrowSvg" />
-            <a href="#" className="ms-1 text-sm font-medium text-gray-700">
+            <Image src={ArrowSvg} alt="ArrowSvg" className="me-1.5" />
+            <a href="#" className="ms-1 text-13 font-normal text-gray-700">
               Booking History
             </a>
           </div>
         </li>
         <li aria-current="page">
           <div className="flex items-center">
-            <Image src={ArrowSvg} alt="ArrowSvg" />
-            <span className="ms-1 text-sm font-medium text-gray-700">
+            <Image src={ArrowSvg} alt="ArrowSvg" className="me-1.5" />
+            <span className="ms-1 text-13 font-normal text-gray-700">
               Flight
             </span>
           </div>
         </li>
         <li aria-current="page">
           <div className="flex items-center">
-            <Image src={ArrowSvg} alt="ArrowSvg" />
-            <span className="ms-1 text-sm font-medium text-blue-700">
+            <Image src={ArrowSvg} alt="ArrowSvg" className="me-1.5" />
+            <span className="ms-1 text-13 font-475 text-blue-700">
               STFL17121182045413
             </span>
           </div>
