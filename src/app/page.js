@@ -10,6 +10,16 @@ const murecho = Murecho({
   subsets: ["latin"],
 });
 
+const flightHistoryData = {
+  destination: "JFK",
+  departure: "DAC",
+  start_date: "25 Mar",
+  end_date: "4 Apr",
+  trip_type: "Round",
+  total_stoppage: 1,
+  estimated_time: "33h 20m",
+};
+
 export default function Home() {
   return (
     <main className={murecho.className}>
@@ -18,7 +28,7 @@ export default function Home() {
         <div className="w-1/5 bg-white rounded-lg p-24 me-10"></div>
         <div className="w-4/5">
           <Breadcrumbs />
-          <FlightHistoryCard />
+          <FlightHistoryCard flightHistoryData={flightHistoryData} />
           <FlightDetails />
         </div>
       </div>
